@@ -1,5 +1,7 @@
 # dockeasy
-super simple and easy to use docker CLI for purging, building, bootstrapping and deploying new containers
+Super simple and easy to use docker CLI for purging, building, bootstrapping and deploying new containers 
+
+ 🐳 🐳 🐳 🐳 🐳
 
 ## installation
 
@@ -12,7 +14,7 @@ super simple and easy to use docker CLI for purging, building, bootstrapping and
 Create a `Dockeasy` file inside the root directory of your app, this transforms your project into an easy docker build. Add the name and the app location and the rest is easy.  See example
 
     NAME example-app
-    
+
     APP ./app/src/bin
 
 Create your `Dockerfile` file and drop inside the root directory.  
@@ -29,6 +31,12 @@ Navigate to the build directory and start using `dockeasy`
 
 ``` bash
   $ dockeasy purge
+```
+
+Or if you also wish to include volumes you can run this
+
+``` bash
+  $ dockeasy purge --full
 ```
 
 ### Building
