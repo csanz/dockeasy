@@ -24,6 +24,7 @@
     "fs-extra": "^7.0.1",
     "commander": "2.19.0",
     "shelljs": "0.8.3",
+    "docker-file-parser": "1.0.4"
   },
   "directories": {
     "test": "./test"

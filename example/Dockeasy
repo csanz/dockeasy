@@ -1,0 +1,5 @@
+# Dockeasy
+
+NAME example-app
+
+APP /app/src/bin
